@@ -2,13 +2,14 @@
  * Plugin for ImpactJS which makes URL "GET" variables easily accessible.
  * @author   Jonathan Commins
  * @created  April 4, 2013
- * @modified -
- * @version  1.0
+ * @modified April 26, 2013
+ * @version  1.1
  *
  * Version History:
  * 1.0 - Created.
+ * 1.1 - Fixed error.
  */
-ig.module('plugins.joncom.url-variables')
+ig.module('plugins.url-variables')
 .requires()
 .defines(function() {
 
@@ -23,7 +24,7 @@ ig.module('plugins.joncom.url-variables')
             var_pairs = search.split("&"); // Extract pairs in the form "foo=bar".
             // Extract variable name and value from each pair.
             for(var i=0; i<var_pairs.length; i++) {
-                var var_name_and_value = var_pairs.split("=");
+                var var_name_and_value = var_pairs[i].split("=");
                 var var_name = var_name_and_value[0];
                 var var_value = var_name_and_value[1];
                 data[var_name] = var_value; // Store variable.
