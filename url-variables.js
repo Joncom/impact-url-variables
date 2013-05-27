@@ -2,14 +2,15 @@
  * Plugin for ImpactJS which makes URL "GET" variables easily accessible.
  * @author   Jonathan Commins
  * @created  April 4, 2013
- * @modified April 26, 2013
+ * @modified May 26, 2013
  * @version  1.1
  *
  * Version History:
  * 1.0 - Created.
  * 1.1 - Fixed error.
+ * 1.2 - Changed module namespace.
  */
-ig.module('plugins.url-variables')
+ig.module('plugins.joncom.url-variables')
 .requires()
 .defines(function() {
 
