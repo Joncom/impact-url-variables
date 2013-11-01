@@ -1,6 +1,6 @@
 ### Summary ###
 
-##### This plugin for ImpactJS makes it easy to access URL "GET" variables. #####
+##### Makes URL "GET" variables easily accessible in ImpactJS. #####
 
 ## Installation ##
 
