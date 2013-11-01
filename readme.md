@@ -4,8 +4,10 @@
 
 ## Installation ##
 
-1. Download plugin and place in `/lib/plugins/joncom/` folder.
-2. Load plugin within Impact `requires` call.
+1. Download plugin.
+2. Make folder `/lib/plugins/joncom/url-variables/`.
+3. Place `url-variables.js` inside folder.
+4. Require `'plugins.joncom.url-variables.url-variables'` in `main.js`.
 
 ## Usage ##
 
