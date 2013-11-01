@@ -1,5 +1,5 @@
 /*
- * Plugin for ImpactJS which makes URL "GET" variables easily accessible.
+ * ImpactJS Plugin that makes URL "GET" variables easily accessible.
  * @author   Jonathan Commins
  * @created  April 4, 2013
  */
