@@ -3,7 +3,7 @@
  * @author   Jonathan Commins
  * @created  April 4, 2013
  */
-ig.module('plugins.joncom.url-variables')
+ig.module('plugins.joncom.url-variables.url-variables')
 .requires()
 .defines(function() {"use strict";
 
