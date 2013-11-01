@@ -15,7 +15,7 @@ ig.module('plugins.joncom.url-variables.url-variables')
         var search = window.location.search;
         if(search) {
             search = search.substr(1); // Drop the leading "?"
-            varPairs = search.split("&"); // Extract pairs in the form "foo=bar".
+            var varPairs = search.split("&"); // Extract pairs in the form "foo=bar".
             // Extract variable name and value from each pair.
             for(var i=0; i<varPairs.length; i++) {
                 var varNameAndValue = varPairs[i].split("=");
