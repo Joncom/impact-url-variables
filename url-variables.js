@@ -5,7 +5,7 @@
  */
 ig.module('plugins.joncom.url-variables')
 .requires()
-.defines(function() {
+.defines(function() {"use strict";
 
     // Returns an object of variables keyed by the name of the variable.
     var getUrlVariables = function() {
